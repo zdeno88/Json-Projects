@@ -1,0 +1,30 @@
+body {
+  font-family: Helvetica, sans-serif;
+  line-height: 1.5;
+}
+h1,
+h2 {
+  color: blue;
+}
+.h2 {
+  text-transform: uppercase;
+}
+.obrazek1 {
+  width: 25%;
+}
+.mesto {
+  font-weight: bold;
+}
+.under {
+  text-decoration: underline;
+}
+a {
+  color: rgb(180, 60, 60);
+}
+.popis {
+  font-size: 14px;
+  font-style: italic;
+}
+.zdroj {
+  font-style: italic;
+}

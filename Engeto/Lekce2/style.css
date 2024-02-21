@@ -1,0 +1,17 @@
+p {
+  text-align: justify;
+  font-style: italic;
+  line-height: 2;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+h1 {
+  text-align: right;
+  padding: 15px;
+  background-color: blue;
+}
+h2 {
+  text-align: center;
+  font-weight: 700;
+  text-decoration: underline;
+}
