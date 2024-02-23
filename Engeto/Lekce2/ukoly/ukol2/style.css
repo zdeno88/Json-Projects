@@ -1,0 +1,97 @@
+.product-card {
+  position: relative;
+  border: 1px solid #000;
+  width: 450px;
+  padding: 16px;
+}
+.pocitac {
+  height: 350px;
+  text-align: center;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.vice-info {
+  color: #808080;
+  font-style: italic;
+}
+.cena {
+  margin-bottom: 25px;
+  padding: 24px;
+  position: relative;
+  background-color: #ee121240;
+  border-radius: 5px;
+}
+.product-price {
+  font-size: 28px;
+  font-weight: bold;
+}
+.product-discount {
+  font-size: 16px;
+  font-weight: bold;
+}
+.button {
+  position: absolute;
+  right: 24px;
+  top: 35px;
+}
+.product-button {
+  border: #000 1px solid;
+  border-radius: 5px;
+  background-color: silver;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.posta {
+  position: relative;
+  background-color: #7fcb5b61;
+  color: #32840c;
+  padding: 20px;
+}
+.box {
+  font-weight: bold;
+  font-size: 16px;
+}
+.info {
+  position: absolute;
+  right: 10px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.best {
+  background-color: #fffa87;
+  border-radius: 0, 5px, 5px, 0;
+  padding: 4px 16px;
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  font-weight: bold;
+}
+.product-roku {
+  display: inline;
+  background-color: #ee1212;
+  border-radius: 0, 5px, 5px, 0;
+  top: 70px;
+  left: 0px;
+  position: absolute;
+  padding: 4px 16px;
+  font-weight: bold;
+  color: white;
+}
+.proc {
+  position: absolute;
+  background-color: red;
+  border-radius: 50%;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  right: 15px;
+  top: 15px;
+  padding: 25px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+}

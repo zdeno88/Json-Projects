@@ -1,0 +1,21 @@
+.element-1 {
+  font-size: 18px;
+}
+
+.element-2 {
+  font-size: 1.25em;
+  padding: 15px;
+  background-color: #05ffb0;
+}
+
+.element-3 {
+  font-size: 1.25em;
+  padding: 15px;
+  background-color: #ff3860;
+}
+
+.element-4 {
+  font-size: 1.25em;
+  padding: 15px;
+  background-color: #ffdd57;
+}
