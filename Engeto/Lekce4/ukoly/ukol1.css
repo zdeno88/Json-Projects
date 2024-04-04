@@ -1,0 +1,43 @@
+.item {
+  padding: 10px;
+  margin: 10px;
+}
+
+.item img {
+  max-width: 100%;
+}
+
+@media (min-width: 576px) {
+  .container {
+    display: flex;
+  }
+
+  .item {
+    flex-basis: calc(100% / 3);
+  }
+
+  hr {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .item {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+  }
+
+  h3 {
+    margin-top: 0;
+  }
+
+  .item img {
+    max-width: 200px;
+    margin-left: 15px;
+  }
+
+  .perex {
+    display: none;
+  }
+}

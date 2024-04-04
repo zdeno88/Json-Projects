@@ -1,0 +1,97 @@
+.flexbox-container {
+  margin: 15px;
+  padding: 10px;
+  background-color: #f2c230;
+  border-radius: 10px;
+}
+
+.item {
+  margin: 15px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 5px;
+  text-align: center;
+  flex-grow: 1;
+}
+
+@media (min-width: 768px) {
+  .flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.even {
+  flex-grow: 1;
+}
+.odd {
+  flex-grow: 3;
+}
+
+/* .container {
+  height: 300px;
+  background-color: bisque;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+}
+
+.box1 {
+  width: 50%;
+  box-sizing: border-box;
+  background-color: greenyellow;
+  border-radius: 5px;
+  margin: 5px;
+}
+.box2 {
+  width: 50%;
+  box-sizing: border-box;
+  background-color: blue;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+@media (max-width: 575px) {
+  .container {
+    display: grid;
+  }
+  .b {
+    width: calc(100% - 10px);
+  }
+} */
+
+.container {
+  height: 300px;
+  background-color: bisque;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.box1 {
+  height: calc(50% - 10px);
+  box-sizing: border-box;
+  background-color: greenyellow;
+  border-radius: 5px;
+  margin: 5px;
+}
+.box2 {
+  height: calc(50% - 10px);
+  box-sizing: border-box;
+  background-color: blue;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+@media (min-width: 575px) {
+  .container {
+    display: flex;
+  }
+  .b {
+    flex-grow: 1;
+    height: calc(100% - 10px);
+  }
+}
+h3 {
+  margin: 0%;
+}

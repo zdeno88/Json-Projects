@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hlavicka,
+.paticka,
+.obsah {
+  padding: 10px;
+}
+
+.hlavicka {
+  text-align: center;
+  color: #ffffff;
+  background-color: #2ea3f2;
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+}
+.obrazek {
+  display: none;
+}
+
+.paticka {
+  font-size: 15px;
+  text-align: center;
+  background-color: #42b9c9;
+  color: #ffffff;
+}
+
+/* Malé zařízení - mobily, od 576px a víc*/
+@media only screen and (min-width: 576px) {
+  .hlavicka {
+    background-color: #00a300;
+  }
+}
+
+/* Středně velké zařízení - tablety, od 768px a víc*/
+/* @media only screen and (...) {...} */
+
+/* Velké zařízení - desktop, od 1200px a víc*/
+/* @media only screen and (...) {...} */

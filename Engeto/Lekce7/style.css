@@ -1,0 +1,25 @@
+body {
+  background-color: grey;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+a {
+  background-color: #db0000;
+  text-decoration: none;
+  padding: 5px 10px;
+  color: white;
+  font-weight: bold;
+  margin-top: 50px;
+}
+section {
+  margin: 10px;
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.reset {
+  margin-top: 10px;
+  margin-left: 10px;
+}
