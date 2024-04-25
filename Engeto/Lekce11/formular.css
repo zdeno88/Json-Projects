@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #141414;
+}
+.form {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.notificationName,
+.notificationEmail {
+  display: none;
+  color: #db0000;
+  margin-top: 10px;
+}
+.form h1 {
+  color: white;
+}
+.fullName,
+.email {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  outline: none;
+  color: white;
+  text-align: center;
+}
+form input[type="submit"] {
+  background-color: #db0000;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-top: 10px;
+}

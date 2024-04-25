@@ -1,0 +1,20 @@
+header {
+  text-align: center;
+}
+header h1 {
+  color: rgb(103, 103, 166);
+}
+.about-us {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
+}
+.about-us p {
+  width: 400px;
+  background-color: rgb(149, 149, 219);
+  padding: 15px;
+  text-align: center;
+  color: white;
+  transition: 0.3s;
+}
